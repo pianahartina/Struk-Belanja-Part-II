@@ -1,0 +1,58 @@
+.struk-superindo {
+  width: 320px;
+  background: white;
+  padding: 20px;
+  border: 2px solid #e60000; /* merah Superindo */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+}
+
+.struk-superindo .header h2 {
+  color: #e60000;
+  text-align: center;
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.struk-superindo .header, 
+.struk-superindo .footer,
+.struk-superindo .member,
+.struk-superindo .poin {
+  text-align: center;
+  font-size: 11px;
+}
+
+.struk-superindo .item,
+.struk-superindo .total,
+.struk-superindo .diskon,
+.struk-superindo .bayar,
+.struk-superindo .grandtotal {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
+.struk-superindo .center {
+  text-align: center;
+}
+
+.struk-superindo .diskon {
+  color: #e60000; /* diskon warna merah */
+}
+
+.struk-superindo .grandtotal {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.struk-superindo hr {
+  border: none;
+  border-top: 1px dashed #ccc;
+  margin: 8px 0;
+}
+
+.struk-superindo hr.tebal {
+  border-top: 2px solid #333;
+}
